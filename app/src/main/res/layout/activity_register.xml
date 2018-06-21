@@ -301,12 +301,12 @@
                     android:layout_toRightOf="@+id/imageView10">
 
                     <Spinner
+                        android:id="@+id/jenisView"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:textColorHint="@color/white"
-                        android:textColor="@color/white"
                         android:hint="Kelurahan"
-                        android:id="@+id/jenisView" />
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/white" />
                 </android.support.design.widget.TextInputLayout>
             </RelativeLayout>
             <Button
